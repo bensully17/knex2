@@ -5,12 +5,14 @@
     "main": "app.js",
     "scripts": {
         "start": "node index.js",
-        "test": "mocha"
+        "test": "mocha",
+        "dev": "nodemon index.js"
     },
     "author": "Kyle Coberly",
     "license": "ISC",
     "dependencies": {
         "body-parser": "^1.18.2",
+        "dotenv": "^5.0.1",
         "express": "^4.16.2",
         "knex": "^0.14.6",
         "morgan": "^1.9.0",
